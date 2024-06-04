@@ -1,0 +1,16 @@
+.profile {
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.profile-center {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 10px;
+    overflow-y: scroll;
+    position: relative;
+}

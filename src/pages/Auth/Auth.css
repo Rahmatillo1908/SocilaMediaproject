@@ -1,0 +1,73 @@
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    gap: 4rem;
+}
+.auth > div {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.a-left {
+    gap: 2rem;
+}
+.a-left > img {
+    width: 4rem;
+    height: 4rem;
+}
+.auth span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.webName h1 {
+    background: red;
+    background: center/cover var(--buttonBg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+}
+.infoForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.infoInput {
+    border: none;
+    outline: none;
+    background: var(--inputColor);
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+}
+.infoForm .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+.form > div {
+    display: flex;
+    gap: 1rem;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+form .button {
+    width: 8rem;
+    height: 3rem;
+}
+.authForm {
+    width: 60rem;
+    background: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+}
